@@ -1,4 +1,4 @@
 # VOP18
-##encryption module
+encryption module:
 Working Atbash encryption.\
 TODO: Caesar cipher
