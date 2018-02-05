@@ -1,4 +1,4 @@
-public class AtbashCipher extends AbstractCipher implements CipherInterface{
+public class AtbashCipher extends AbstractCipher implements CipherInterface {
     @Override
     public String encrypt(String original) {
         char[] tempCharArray = original.toCharArray();
