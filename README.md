@@ -1,5 +1,5 @@
 # VOP18
-## encryption module
+## Encryption module
 **Working:** \
 Atbash encryption.\
 Ceasar cipher. \

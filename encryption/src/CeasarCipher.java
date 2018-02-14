@@ -33,7 +33,7 @@ public class CeasarCipher extends AbstractCipher implements CipherInterface {
                 decrypted = decrypted + ch;
             }
             else if (index - rotFactor < 0){
-                encrypted = encrypted + ALPHABETH[ALPHABETH.length-1 + (index - rotFactor)];
+                decrypted = decrypted + ALPHABETH[ALPHABETH.length+1 + (index - rotFactor)];
             }
             else{
                 decrypted = decrypted + ALPHABETH[index - rotFactor];
